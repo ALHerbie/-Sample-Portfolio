@@ -58,6 +58,10 @@ main{
   min-height:200px;
 
 }
+h1 {font-size: 32px;
+
+
+}
 
 
 .profileImage img{
@@ -82,23 +86,38 @@ text-align: center;
 footer{
   text-align: center;
 
-
 }
 
-.socialMedia{
-  padding: 0.5rem;
+h2 {
+  color:#000000;
+}
 
-color:#ffffff;
+.socialMedia i{
+  padding: 0.2rem;
+
 }
 
 .contact {
 
   padding-bottom:0.7rem;
-  color:#fff;
+  color: white;
 
 }
 
-.socialMedia
 
+}
 
 /* end of footer style */
+
+
+@media screen and (min-width: 800px) {
+  footer {
+    display:flex;
+  }
+
+
+.copy, .socialMedia, .contact{
+  flex:1;
+}
+
+}
