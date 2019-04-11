@@ -10,8 +10,9 @@ header{
 
 .logo{
   flex:1;
-  height: 200px;
-    width: 50%;
+}
+.logoImage img {
+  width:100%;
 }
 
 .name{
@@ -52,18 +53,52 @@ display: block;
 
 /* Main content style */
 
+
 main{
   min-height:200px;
-  border: 1px solid black;
+
 }
+
+
+.profileImage img{
+  width: 100%;
+text-align: center;
+padding-bottom:0px;
+}
+
+.profileImage{
+text-align: center;
+}
+
+.aboutMe{
+  background-color:#F59734;
+
+}
+
 /* end of main content style */
 
 /* footer style*/
 
-footer{text-align: center;
-  background-image: url('../images/footerback.jpg');
+footer{
+  text-align: center;
+
 
 }
+
+.socialMedia{
+  padding: 0.5rem;
+
+color:#ffffff;
+}
+
+.contact {
+
+  padding-bottom:0.7rem;
+  color:#fff;
+
+}
+
+.socialMedia
 
 
 /* end of footer style */
