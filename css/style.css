@@ -51,8 +51,15 @@ display: block;
 
 /* end of header styles */
 
+
 /* Main content style */
 
+
+/* start of slider*/
+
+
+
+/* start of slider*/
 
 main{
   min-height:200px;
@@ -104,9 +111,6 @@ h2 {
 
 }
 
-
-}
-
 /* end of footer style */
 
 
@@ -118,6 +122,4 @@ h2 {
 
 .copy, .socialMedia, .contact{
   flex:1;
-}
-
 }
