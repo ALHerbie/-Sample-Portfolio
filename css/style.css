@@ -21,6 +21,19 @@ header{
 
 }
 
+.aboutMe  h1{
+margin-left: 20px;
+padding-top: 20px;
+}
+
+.aboutMe p{
+margin-left: 20px;
+margin-right: 20px;
+
+
+
+}
+
 nav {
   position: relative;
   flex:1;
@@ -72,9 +85,11 @@ h1 {font-size: 32px;
 
 
 .profileImage img{
-  width: 100%;
+width:400px;
+height:500px;
 text-align: center;
 padding-bottom:0px;
+
 }
 
 .profileImage{
@@ -83,6 +98,8 @@ text-align: center;
 
 .aboutMe{
   background-color:#F59734;
+  height:500px;
+  width: 400px;
 
 }
 
@@ -115,6 +132,20 @@ h2 {
 
 
 @media screen and (min-width: 800px) {
+  section{display: flex;
+
+  }
+
+.aboutMe {
+  flex:1;
+}
+
+.profileImage {
+  display:flex:1;
+  text-align: left;
+
+  }
+
   footer {
     display:flex;
   }
@@ -122,4 +153,12 @@ h2 {
 
 .copy, .socialMedia, .contact{
   flex:1;
+}
+
+.copy{
+  text-align: left;
+}
+
+.contact{
+text-align: left;
 }
